@@ -1,23 +1,61 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 40px 0;
+}
+
 .logo__name {
-  font-family: 'PT Serif';
+  font-family: 'PT Serif', serif;
   font-weight: 700;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
 .menu__item {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
+  padding: 0 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-content__title {
-  font-family: 'PT Serif';
+  font-family: 'PT Serif', serif;
 }
 
 .main-content__description {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
 }
 
 .main-content__btn {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
+}
+
+.image-content {
+  display: flex;
+  align-items: center;
 }
