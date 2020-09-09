@@ -1,0 +1,23 @@
+.logo-name {
+  font-family: 'PT Serif';
+  font-weight: 700;
+}
+
+.menu a {
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.title {
+  font-family: 'PT Serif';
+}
+
+.title_description {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.title_btn {
+  font-family: Roboto;
+  font-weight: 400;
+}
