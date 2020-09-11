@@ -41,6 +41,8 @@ body {
 
 .logo__name {
   font: bold 24px/32px 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+  text-decoration: none;
 }
 
 .menu {
@@ -49,13 +51,31 @@ body {
 }
 
 .menu__item {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  padding: 0 13px;
+  font: 500 18px/21px Roboto, Arial, Helvetica, sans-serif;
+  margin-right: 26px;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  transition: width .5s;
+}
+
+.menu__item:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  left: 0;
+  transition: width .7s;
 }
 
 .menu__item:last-child {
-  padding-right: 0;
+  margin-right: 0;
+}
+
+.menu__item:hover:after, .menu_item_active::after {
+  width: 100%;
 }
 
 .main-section {
