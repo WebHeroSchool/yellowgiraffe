@@ -74,7 +74,7 @@ body {
   margin-right: 0;
 }
 
-.menu__item:hover:after, .menu_item_active::after {
+.menu__item:hover:after {
   width: 100%;
 }
 
