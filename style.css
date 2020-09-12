@@ -10,6 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 200px;
 }
 
 .logo {
@@ -78,26 +79,36 @@ body {
   width: 100%;
 }
 
-.main-section {
-  display: flex;
-  justify-content: space-between;
+.main {
+  padding: 0 63% 250px 0;
+  background: top right no-repeat url(img/bg.svg);
 }
 
-.main-content__title {
+.main__title {
   font: bold 66px/87px 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  margin: 0 0 40px 0;
 }
 
-.main-content__description {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
+.main__title-text_hightlight {
+  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
-.main-content__btn {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
+.main__description {
+  font: 400 22px/26px Roboto, Arial, Helvetica, sans-serif;
+  width: 81%;
+  margin: 0 0 40px 0;
 }
 
-.image-content {
-  display: flex;
-  align-items: center;
+.main__btn {
+  font: 500 18px/21px Roboto, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 14px 16px;
+  color: #fff;
+  background: #0056EC;
+  border-radius: 4px;
+  transition: .5s;
+}
+
+.main__btn:hover {
+  opacity: .5;
 }
