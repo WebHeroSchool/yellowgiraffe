@@ -10,12 +10,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 130px;
 }
 
 .logo {
-  padding: 40px 0;
-  padding-left: 44px;
+  padding: 39px 0;
+  padding-left: 50px;
   position: relative;
 }
 
@@ -25,7 +25,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 0;
+  left: 4px;
   border-radius: 50%;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .logo__circle_color_blue {
   top: 56%;
-  left: 8px;
+  left: 15px;
   background: #C8DBFB;
   opacity: .7;
 }
@@ -90,6 +90,7 @@ body {
 
 .main__title {
   font: bold 66px/87px 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  padding-top: 75px;
   margin: 0 0 40px 0;
 }
 
@@ -100,13 +101,14 @@ body {
 .main__description {
   font: 400 22px/26px Roboto, Arial, Helvetica, sans-serif;
   margin: 0 0 40px 0;
+  width: 81%;
 }
 
 .main__btn {
   display: inline-block;
   font: 500 18px/21px Roboto, Arial, Helvetica, sans-serif;
   text-decoration: none;
-  padding: 14px 16px;
+  padding: 14px 26px;
   color: #fff;
   background: #0056EC;
   border-radius: 4px;
@@ -124,7 +126,7 @@ body {
   100% {transform: scale(1);}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
   .logo__name {
     display: none;
   }
@@ -179,6 +181,7 @@ body {
   .main__title {
     font: bold 30px/40px 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 32px;
+    padding-top: 0;
   }
   
   .main__description {
@@ -192,7 +195,7 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 1171px) and (max-width: 1600px) {
   .header {
     margin-bottom: 120px;
   }
@@ -202,7 +205,7 @@ body {
   }
 
   .main {
-    padding: 0 55% 100px 0;
+    padding: 0 55% 160px 0;
     background-size: 55%;
   }
 
