@@ -163,7 +163,6 @@ body {
     width: 28px;
     height: 28px;
     top:50%;
-    
     position: absolute;
     transform: translateY(-50%);
     border-radius: 50%;
